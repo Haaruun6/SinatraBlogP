@@ -1,0 +1,13 @@
+!!!
+%html
+	%head
+		%title Haaruun's Blog
+		%link{:href => '/css/main.css', :rel => "stylesheet", :type => "text/css"}
+	%body
+		%header
+			%a{:href => '/'}
+				%h1 Haaruun's blog
+
+		#container= yield
+
+		%footer &copy; 2015 Haaruun
